@@ -6,7 +6,8 @@
 
 <br>
 
-<a href="https://davitushka.github.io/"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Portfolio-davitushka.github.io-7c3aed?style=for-the-badge&labelColor=0d1117" alt="Live Portfolio" /></a>
+<a href="https://davitushka.github.io/"><img src="https://img.shields.io/badge/%F0%9F%9A%80%20Live%20Portfolio-davitushka.github.io-7c3aed?style=for-the-badge&labelColor=000000" alt="Live Portfolio" /></a>
+<a href="https://davitushka.github.io/#playground"><img src="https://img.shields.io/badge/Live%20log%20parser-demo-22d3ee?style=for-the-badge&labelColor=000000" alt="Log parser demo" /></a>
 
 <br><br>
 
@@ -22,17 +23,40 @@
 
 👋 I'm **Senri** — full-stack developer at **[Protonoro](https://protonoro.com/)** (he/him).
 
-🔭 Building **web platforms**, **real-time systems**, and **observability** tooling.
+🔭 I build **web platforms**, **real-time systems**, and **observability** tooling.
 
 🚀 Focus: **Rust** parsers · **React** portals · **.NET** services · **ClickHouse** / **Kafka** data planes.
 
-🔨 Building **[thread-sync](https://github.com/Davitushka/thread-sync)** (open-source SIEM) and **[Protonoro Timer](https://protonoro.com/)** (commercial productivity app).
+🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — my open-source SIEM (code on GitHub, click card on portfolio for preview).
+
+⏱ **[Protonoro Timer](https://protonoro.com/)** — productivity app I build (commercial, source is private).
+
+🧪 **[Live log parser](https://davitushka.github.io/)** — paste a log line on my portfolio, same format detection as thread-sync.
 
 📫 **protonoro.com** · **aid128638caides@gmail.com**
 
+<details>
+<summary><b>🇷🇺 Обо мне (RU)</b></summary>
+
+<br>
+
+👋 Я **Senri** — full-stack разработчик в **[Protonoro](https://protonoro.com/)**.
+
+🔭 Делаю веб-платформы, real-time системы и observability-инструменты.
+
+🚀 Стек: **Rust** · **React** · **.NET** · **ClickHouse** / **Kafka**.
+
+🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — моя open-source SIEM, код на GitHub.
+
+⏱ **[Protonoro Timer](https://protonoro.com/)** — таймер продуктивности (коммерческий, исходники закрыты).
+
+🧪 На **[портфолио](https://davitushka.github.io/)** есть live-демо парсера логов — вставь строку, увидишь формат.
+
+</details>
+
 ---
 
-> Tip: the sections below act like tabs — click to expand. For the full experience visit the **[live portfolio](https://davitushka.github.io/)**.
+> Sections below work like tabs — click to expand. Full experience: **[live portfolio](https://davitushka.github.io/)** (RU/EN switcher on site).
 
 <details open>
 <summary><b>🛠 Technology stack</b></summary>
@@ -54,13 +78,14 @@
 
 #### [thread-sync](https://github.com/Davitushka/thread-sync)
 
-Production-grade SIEM — Rust parser, React SOC portal, ClickHouse, Kafka, Grafana, Docker/K8s.
+SIEM I built from scratch — Rust parser, React SOC portal, ClickHouse, Kafka, Grafana, Docker/K8s.
 
 - 10k → 50k EPS · alerts ≤ 30s · parse &lt;5ms p99
+- Click portfolio card → code preview modal
 
 #### Protonoro Timer
 
-Full-stack productivity app at **[Protonoro](https://protonoro.com/)** (commercial, source is private).
+Full-stack productivity app at **[Protonoro](https://protonoro.com/)** — commercial, source is private.
 
 <br>
 
@@ -107,8 +132,9 @@ flowchart LR
 
 <br>
 
-<a href="https://davitushka.github.io/"><img src="https://img.shields.io/badge/Portfolio-davitushka.github.io-7c3aed?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
-<a href="https://protonoro.com/"><img src="https://img.shields.io/badge/Website-protonoro.com-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+<a href="https://davitushka.github.io/"><img src="https://img.shields.io/badge/Portfolio-davitushka.github.io-7c3aed?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=000000" alt="Portfolio"></a>
+<a href="https://davitushka.github.io/#playground"><img src="https://img.shields.io/badge/Log%20parser-demo-22d3ee?style=for-the-badge&labelColor=000000" alt="Demo"></a>
+<a href="https://protonoro.com/"><img src="https://img.shields.io/badge/Website-protonoro.com-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000" alt="Website"></a>
 <a href="mailto:aid128638caides@gmail.com"><img src="https://img.shields.io/badge/Email-me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
 </div>
