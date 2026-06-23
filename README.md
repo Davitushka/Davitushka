@@ -27,11 +27,11 @@
 
 🚀 Focus: **Rust** parsers · **React** portals · **.NET** services · **ClickHouse** / **Kafka** data planes.
 
-🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — my open-source SIEM (code on GitHub, click card on portfolio for preview).
+🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — my open-source SIEM (code on GitHub, portfolio modal has **tabbed code snippets** from the repo).
 
 ⏱ **[Protonoro Timer](https://protonoro.com/)** — productivity app I build (commercial, source is private).
 
-🧪 **[Live log parser](https://davitushka.github.io/)** — paste a log line on my portfolio, same format detection as thread-sync.
+🧪 **[Live portfolio](https://davitushka.github.io/)** — RU/EN site with **interactive SIEM pipeline map** and live log parser demo.
 
 📫 **protonoro.com** · **aid128638caides@gmail.com**
 
@@ -46,11 +46,11 @@
 
 🚀 Стек: **Rust** · **React** · **.NET** · **ClickHouse** / **Kafka**.
 
-🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — моя open-source SIEM, код на GitHub.
+🔨 **[thread-sync](https://github.com/Davitushka/thread-sync)** — моя open-source SIEM, в модалке на портфолио — **вкладки с кодом** из репозитория.
 
 ⏱ **[Protonoro Timer](https://protonoro.com/)** — таймер продуктивности (коммерческий, исходники закрыты).
 
-🧪 На **[портфолио](https://davitushka.github.io/)** есть live-демо парсера логов — вставь строку, увидишь формат.
+🧪 **[Портфолио](https://davitushka.github.io/)** — RU/EN, **интерактивная карта SIEM-пайплайна** и live-демо парсера логов.
 
 </details>
 
@@ -81,7 +81,8 @@
 SIEM I built from scratch — Rust parser, React SOC portal, ClickHouse, Kafka, Grafana, Docker/K8s.
 
 - 10k → 50k EPS · alerts ≤ 30s · parse &lt;5ms p99
-- Click portfolio card → code preview modal
+- Portfolio: click card → **tabbed code preview** (`detect_format`, `parse`, `handle_parse`)
+- About tab: **interactive pipeline map** — click nodes to see what each layer does
 
 #### Protonoro Timer
 
