@@ -1,107 +1,98 @@
-### Hi there 👋
+<div align="center">
 
-I'm **Senri** — full-stack developer at [Protonoro](https://protonoro.com/), focused on **web platforms**, **real-time systems**, and **observability**.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7c3aed&height=220&section=header&text=Hi%2C%20I'm%20Senri&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-stack%20developer%20%40%20Protonoro&descSize=18&descAlignY=58&descAlign=55" width="100%" alt="Header banner" />
 
-I design and ship production tooling: from parsing pipelines and SIEM backends to React portals and Docker/Kubernetes deployments. Currently co-building products at [@PROTONORO-LTD](https://github.com/PROTONORO-LTD).
+<br>
 
-<p>
-  <a href="https://protonoro.com/"><img alt="Website" src="https://img.shields.io/badge/Website-protonoro.com-7c3aed?style=flat-square&logo=googlechrome&logoColor=white"></a>
-  <a href="mailto:aid128638caides@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-me-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
-  <a href="https://github.com/PROTONORO-LTD"><img alt="Org" src="https://img.shields.io/badge/Org-PROTONORO--LTD-0969da?style=flat-square&logo=github&logoColor=white"></a>
-</p>
+<img src="https://komarev.com/ghpvc/?username=Davitushka&label=Profile%20views&color=7c3aed&style=for-the-badge" alt="Profile views" />
+<img src="https://img.shields.io/github/commit-activity/m/Davitushka?color=7c3aed&label=Commits%20this%20month&style=for-the-badge&logo=git" alt="Commits this month" />
+<img src="https://img.shields.io/badge/Public%20repos-2-7c3aed?style=for-the-badge&logo=github" alt="Public repos" />
 
----
-
-### What I build
-
-#### [thread-sync](https://github.com/Davitushka/thread-sync) — production-grade SIEM
-
-Open-source security analytics platform for microservice environments.
-
-- **Rust parser** — HTTP ingest, Kafka pipeline, PII redaction, normalization (&lt;5ms p99 parse)
-- **React SOC portal** — analyst suite, real-time updates, case management UI
-- **Data plane** — ClickHouse storage, Redis state, Sigma-based detection engine
-- **Observability** — Grafana dashboards, Prometheus metrics, Vector aggregation
-- **Deploy** — Docker Compose for local/prod-like stacks, Kubernetes manifests
-- **Scale targets** — 10k → 50k EPS, critical alerts ≤ 30s from event
-
-#### Protonoro Timer — full-stack productivity app
-
-- Full-stack timer product at **@PROTONORO-LTD** (frontend + backend)
-- Built for daily focus workflows and team productivity
-- Commercial codebase — showcased here, not open-sourced
+</div>
 
 ---
 
-### Architecture (thread-sync)
+### About me
 
-```mermaid
-flowchart LR
-  apps[Apps_and_agents] --> vector[Vector]
-  vector --> kafka[Kafka_Redpanda]
-  kafka --> parser[Rust_parser]
-  parser --> clickhouse[ClickHouse]
-  parser --> detection[Detection_engine]
-  clickhouse --> portal[SIEM_portal]
-  clickhouse --> grafana[Grafana]
-  detection --> portal
-```
+👋 I'm **Senri** — full-stack developer at **[Protonoro](https://protonoro.com/)** (he/him).
 
-**Components:** `rust-parser` · `siem-portal` · `detection-engine-rs` · `case-management-rs` · `vector` · `deploy/docker` · `deploy/k8s`
+🔭 Building **web platforms**, **real-time systems**, and **observability** tooling.
+
+🚀 Focus: **Rust** parsers · **React** portals · **.NET** services · **ClickHouse** / **Kafka** data planes.
+
+🏢 Co-building [@PROTONORO-LTD](https://github.com/PROTONORO-LTD) — [Protonoro Timer](https://github.com/PROTONORO-LTD) & **[thread-sync](https://github.com/Davitushka/thread-sync)** (open-source SIEM).
+
+📫 **protonoro.com** · **aid128638caides@gmail.com**
 
 ---
 
-### Tech stack
+### Technology stack
 
-**Languages**
+<div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET_9-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<img src="https://skillicons.dev/icons?i=rust,typescript,react,dotnet,python,docker,kubernetes,postgres,redis,kafka,grafana,prometheus,bash,powershell,vite,tauri&perline=8" alt="Tech stack icons" />
 
-**Frontend**
+</div>
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
+<br>
 
-**Data and messaging**
+<div align="center">
 
-![ClickHouse](https://img.shields.io/badge/ClickHouse-FFCC01?style=flat-square&logo=clickhouse&logoColor=black)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Davitushka&show_icons=true&theme=tokyonight&hide_border=false&border_color=7c3aed&icon_color=7c3aed&title_color=7c3aed&text_color=c9d1d9&bg_color=0d1117" alt="GitHub stats" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davitushka&layout=compact&theme=tokyonight&hide_border=false&border_color=7c3aed&title_color=7c3aed&text_color=c9d1d9&bg_color=0d1117&langs_count=8" alt="Top languages" />
 
-**Ops and observability**
+<br>
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Davitushka&theme=tokyonight&hide_border=false&border=7c3aed&ring=7c3aed&fire=7c3aed&currStreakLabel=7c3aed&sideLabels=7c3aed&dates=7c3aed&sideNums=ffffff" alt="GitHub streak" />
+
+<br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Davitushka&theme=tokyo-night&hide_border=true&color=7c3aed&line=7c3aed&point=ffffff&area=true" alt="Contribution graph" />
+
+</div>
 
 ---
 
 <details>
-<summary><b>Stats and activity</b></summary>
+<summary><b>Projects and architecture</b></summary>
+
 <br>
 
-<p align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Davitushka&theme=tokyonight&hide_border=true" alt="streak" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davitushka&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="langs" />
-</p>
+#### [thread-sync](https://github.com/Davitushka/thread-sync)
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=Davitushka&repo=thread-sync&theme=tokyonight&hide_border=true" alt="thread-sync" />
-</p>
+Production-grade SIEM — Rust parser, React SOC portal, ClickHouse, Kafka, Grafana, Docker/K8s.
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Davitushka&theme=tokyo-night&hide_border=true" alt="graph" />
-</p>
+- 10k → 50k EPS · alerts ≤ 30s · parse &lt;5ms p99
+
+#### Protonoro Timer
+
+Full-stack productivity app @ **PROTONORO-LTD** (commercial, not open-sourced).
+
+<br>
+
+```mermaid
+flowchart LR
+  apps[Apps] --> vector[Vector]
+  vector --> kafka[Kafka]
+  kafka --> parser[Rust_parser]
+  parser --> clickhouse[ClickHouse]
+  parser --> detection[Detection]
+  clickhouse --> portal[Portal]
+  clickhouse --> grafana[Grafana]
+```
 
 </details>
 
 ---
 
-**Open to collaboration** — reach out via [protonoro.com](https://protonoro.com/) or [email](mailto:aid128638caides@gmail.com).
+<div align="center">
+
+**Thanks for stopping by — open to collaboration**
+
+<br>
+
+<a href="https://protonoro.com/"><img src="https://img.shields.io/badge/Website-protonoro.com-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+<a href="mailto:aid128638caides@gmail.com"><img src="https://img.shields.io/badge/Email-me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://github.com/PROTONORO-LTD"><img src="https://img.shields.io/badge/Org-PROTONORO--LTD-0969da?style=for-the-badge&logo=github&logoColor=white" alt="Org"></a>
+
+</div>
