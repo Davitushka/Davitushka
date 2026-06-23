@@ -26,7 +26,7 @@
 
 🚀 Focus: **Rust** parsers · **React** portals · **.NET** services · **ClickHouse** / **Kafka** data planes.
 
-🏢 Co-building [@PROTONORO-LTD](https://github.com/PROTONORO-LTD) — [Protonoro Timer](https://github.com/PROTONORO-LTD) & **[thread-sync](https://github.com/Davitushka/thread-sync)** (open-source SIEM).
+🔨 Building **[thread-sync](https://github.com/Davitushka/thread-sync)** (open-source SIEM) and **[Protonoro Timer](https://protonoro.com/)** (commercial productivity app).
 
 📫 **protonoro.com** · **aid128638caides@gmail.com**
 
@@ -60,7 +60,7 @@ Production-grade SIEM — Rust parser, React SOC portal, ClickHouse, Kafka, Graf
 
 #### Protonoro Timer
 
-Full-stack productivity app @ **PROTONORO-LTD** (commercial, not open-sourced).
+Full-stack productivity app at **[Protonoro](https://protonoro.com/)** (commercial, source is private).
 
 <br>
 
@@ -110,6 +110,5 @@ flowchart LR
 <a href="https://davitushka.github.io/"><img src="https://img.shields.io/badge/Portfolio-davitushka.github.io-7c3aed?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
 <a href="https://protonoro.com/"><img src="https://img.shields.io/badge/Website-protonoro.com-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
 <a href="mailto:aid128638caides@gmail.com"><img src="https://img.shields.io/badge/Email-me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-<a href="https://github.com/PROTONORO-LTD"><img src="https://img.shields.io/badge/Org-PROTONORO--LTD-0969da?style=for-the-badge&logo=github&logoColor=white" alt="Org"></a>
 
 </div>
