@@ -32,17 +32,14 @@ Building products at the intersection of **web**, **real-time systems**, and **p
 
 ---
 
-## GitHub stats
-
-> Карточки считают только **публичные** коммиты. Основная работа (Protonoro, private repos) сюда не попадёт.
+## Stats & activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Davitushka&show_icons=true&theme=tokyonight&hide_border=true&count_private=false" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davitushka&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
+<img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=Davitushka&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Davitushka&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/pin/?username=Davitushka&repo=thread-sync&theme=tokyonight&hide_border=true" alt="thread-sync repo card" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Davitushka&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img height="180" src="https://github-readme-stats.vercel.app/api/pin/?username=Davitushka&repo=thread-sync&theme=tokyonight&hide_border=true" alt="thread-sync" />
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Davitushka&theme=tokyo-night&hide_border=true" alt="Contribution graph" />
 
